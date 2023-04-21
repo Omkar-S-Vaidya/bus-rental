@@ -1,0 +1,428 @@
+body{
+	margin:0;
+}
+/*navigation bar*/
+.navbar{
+	position:fixed;
+	width:100%;
+	overflow:hidden;
+	background-color:#c9f500;
+	z-index: 1;
+}
+.navbar a{
+	float:left;
+	padding:20px;
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+}
+.navbar a:hover{
+	background-color:#00cd99;
+	color:white;
+}
+.navbar .logo{
+	font-family:cursive;
+	font-size:15.5px;
+}
+.navbar .logo:hover{
+	background-color:#c9f500;
+	color:black;
+}
+.navbar .slg:hover{
+	background-color:#c9f500;
+	color:black;
+}
+.navbar .subname{
+	font-family:cursive;
+	font-size:20px;
+}
+.navbar .subname:hover{
+	background-color:#c9f500;
+	color:black;
+}
+.navbar .active{
+	background-color:#00cd99;
+	color:white;
+}
+.navbar .dp{
+	padding:20.5px;
+}
+.navbar select{
+	background-color:inherit;
+	border:none;
+	font-size:18px;
+	height:100%;
+}
+.navbar option{
+	background-color:#00cd99;
+}
+.navbar .logout{
+	margin-left:600px;
+}
+
+/*main for dividing nav from body*/
+main{
+	
+	position:absolute;
+	margin-top:62.7px;
+	width:100%;
+}
+
+/*Image slider*/
+.img-slide{
+	
+	
+	width:100%;
+	height:690px;
+}
+.img-slide .myslide{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.fade{
+	animation-name:fade;
+	animation-duration:1.5s;
+}
+@keyframes fade{
+	from{opacity:0.4;}
+	to{opacity:1;}
+}
+.img-slide .leftb ,.rightb{
+	padding:20px;
+	background-color:#000000c2;
+	color:white;
+	position:absolute;
+	top:320px;
+	border:none;
+	border-radius:50px;
+	cursor:pointer;
+}
+.img-slide .leftb:hover ,.rightb:hover{
+	background-color:#00000080;
+}
+.img-slide .rightb{
+	right:10px;
+}
+.img-slide .leftb{
+	left:10px;
+	
+}
+
+
+/*subtitle*/
+
+
+.best-prod{
+	position:relative;
+	margin-top:60px;
+	text-align:center;
+
+	
+}
+.best-prod hr{
+	margin-bottom: 30px;
+	
+}
+.vec-frame{
+	
+	position:relative;
+	margin-left:25px;	
+}
+.vec-frame .vechicle{
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+	width:330px;
+	height:auto;
+	background-color:#eee;
+	padding:10px;
+	border-radius:20px;
+	
+}
+.vechicle img{
+	width:100%;
+	height:200px;
+	border-radius:20px;
+	
+}
+.vechicle h3,p{
+	color:black;
+}
+.vechicle p{
+	text-align:left;
+	margin-left:15px;
+}
+
+/* tempo */
+.tempo{
+	position:relative;
+	text-align:center;
+	
+	
+}
+.tempo .tempo-frame{
+	position:relative;
+	margin-left:40px;
+}
+
+.tempo-frame .section{
+	float:left;
+	width:300px;
+	height:auto;
+	background-color:#eee;
+	padding:10px;
+	margin-left:120px;
+	margin-bottom:20px;
+	border-radius:20px;
+}
+
+.tempo-frame .section .myslide1, .myslide2, .myslide3{
+	position:relative;
+	height:200px;
+	width:100%;
+	border-radius:20px;
+}
+.section h3,p,a{
+	color:black;
+	text-decoration:none;
+
+}
+.section p{
+	text-align:left;
+	margin-left:15px;
+}
+.tempo hr{
+	margin-bottom:30px;
+}
+.fade{
+	animation-name:fade;
+	animation-duration:1.5s;
+}
+@keyframes fade{
+	from{opacity:0.7;}
+	to{opacity:1;}
+}
+.section .r1, .l1{
+	position:relative;
+	top:-100px;
+	background-color:black;
+	color:white;
+}
+.section .l1{
+	
+	left:-115px;
+}
+.section .r1{
+	left:115px;
+}
+
+
+/*display bus*/
+.prod {
+	position:relative;
+	margin:50px;
+	margin-bottom:30px;
+}
+.prod .imgdis{
+	position:relative;
+	margin-top:100px;
+	margin-left:20px;
+	height:auto;
+	width:600px;
+}
+.prod .imgdis .myslide{
+	position:relative;
+	height:500px;
+	width:100%;
+	border:solid 2px;
+}
+.prod .imgdis .bnt{
+	position:relative;
+	float:left;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	height:100px;
+	width:100px;
+	border:solid 2px;
+	cursor:pointer;
+}
+	
+.details{
+	position: relative;
+    margin-left: 700px;
+    margin-top: -530px;
+    width: 510px;
+}
+
+/* All button */
+
+.details .btn,.btn1{
+	position:relative;
+	margin-top:20px;
+	padding:15px;
+	background-color:#ff9a65;
+	border-radius:30px 10px;
+	border-style:none;
+	cursor:pointer;
+}
+.details .btn,.btn1{
+	left:40%;
+}
+
+.details .btn,.btn1:hover{
+	background-color:#f58347;
+}
+
+/* rent form */
+
+.details form{
+	font-family:cursive;
+	
+}
+.details input[type=date],input[type=text],input[type=number],input[type=email],textarea{
+	padding:15px;
+	border:solid 1px;
+}
+.details input[type=date]{
+	margin-right:5px;
+}
+.details input[type=text],input[type=number],input[type=email],textarea[type=adderss]{
+	width:100%;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+.details form .date{
+	position:relative;
+	padding-bottom:20px;
+}
+
+/* payment */
+.payment{
+	position:relative;
+	left:30%;
+	width:500px;
+	background-color:#eee;
+	margin-bottom:10px;
+	margin-top:20px;
+	border-radius:20px;
+	padding:10px 0 10px 10px;
+	
+}
+.divide{
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+
+.payment .divide img{
+	height:300px;
+	width:300px;
+}
+
+
+/* about us */
+.row .column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: white;
+  background-color:black;
+}
+
+
+.title {
+  color: grey;
+}
+
+.button{
+	position:relative;
+	left:40%;
+	margin-top:20px;
+	padding:15px;
+	background-color:#ff9a65;
+	border-radius:30px 10px;
+	border-style:none;
+	cursor:pointer;
+}
+.button:hover{
+background-color:#f58347;}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+/* contact */
+.contact {
+  border-radius: 5px;
+  background-color: #c9f500;
+  padding: 20px;
+  width:500px;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:500px;
+}
+.contact input[type=text],  textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+.contact input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact input[type=submit]:hover {
+  background-color: #45a049;
+}
+/* footer */
+
+
+footer{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	height:auto;
+	background-color:#c9f500;
+	
+}
+footer .lg{
+	float:left;
+	height:40px;
+	width:40px;
+	padding:20px;
+}
+footer .lg1{
+	margin-left:600px;
+}
+footer .lg img{
+	height:100%;
+	width:100%;
+}
+footer h2{
+	text-align:center;
+}
+
+
