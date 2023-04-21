@@ -30,7 +30,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	if($r_num==2){
 		echo '<script type="text/javascript">alert("this vehical currently not available");</script>';
 	}
-	elseif($edate<=$sdate){
+	elseif($edate<$sdate){
 		echo '<script type="text/javascript">alert("invalide date");</script>';
 	}
 	else{
